@@ -1,0 +1,17 @@
+Name:                generic-storage
+Version:             0.1.0.0
+Synopsis:            An implementation of "Generic Storage in Haskell"
+-- Description:         
+Homepage:            http://github.com/NicolasT/generic-storage
+License:             LGPL-2.1
+License-File:        LICENSE
+Author:              Nicolas Trangez
+Maintainer:          ikke@nicolast.be
+Copyright:           (c) 2013, Nicolas Trangez
+Category:            Data
+Build-Type:          Simple
+Cabal-Version:       >=1.8
+
+Library
+  Exposed-Modules:     
+  Build-Depends:       base >= 4 && < 5
