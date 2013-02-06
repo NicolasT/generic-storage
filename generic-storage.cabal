@@ -13,5 +13,13 @@ Build-Type:          Simple
 Cabal-Version:       >=1.8
 
 Library
-  Exposed-Modules:     
-  Build-Depends:       base >= 4 && < 5
+  Exposed-Modules:     Data.Tree,
+                       Data.Tree.Generic,
+                       Data.Tree.Algorithms,
+                       Data.Tree.Annotated
+  Other-Modules:       Control.Functor.Algebra
+  Build-Depends:       base >= 4 && < 5,
+                       recursion-schemes,
+                       free
+  Hs-Source-Dirs:      src
+  Ghc-Options:         -Wall
